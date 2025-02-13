@@ -4,7 +4,7 @@ import AudioPlayer from 'react-h5-audio-player';
 
 
 const Page = () => {
-    const [name, setName] = useState('Su Thit');
+    const [name, setName] = useState('May Zun');
     const [yesButtonClicked, setYesButtonClicked] = useState(false);
     const [yesButtonFontSize, setYesButtonFontSize] = useState(0)
     const [noTextIdx, setNoTextIdx] = useState(0)
@@ -51,7 +51,7 @@ const Page = () => {
 
             {yesButtonClicked && <main className="flex flex-col justify-center items-center min-h-screen">
                 <h1 className="text-4xl font-bold text-4xl font-bold text-red-600 text-wrap">
-                    I knew you would say yes! SEE YOU Valentine 💕
+                    I knew you would say yes! SEE YOU Valentines 💕
                 </h1>
                 <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"/>
             </main>}
